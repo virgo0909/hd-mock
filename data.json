@@ -1,0 +1,49 @@
+{
+  "_readme": "이 파일만 교체하면 앱 전체 숫자가 바뀝니다. 총 결제금액/카드별합계/포인트/명세서 귀속월은 모두 코드가 계산하므로 여기엔 '거래 원본'만 넣으세요.",
+
+  "config": {
+    "statementDay": 25,
+    "billingCutDay": 12,
+    "withdrawDelayDays": 2,
+    "account": { "bank": "국민은행", "numberMasked": "420**********2" },
+    "_note_billingCutDay": "이용일이 이 날(포함) 이전이면 그 달 25일 명세서, 초과면 다음 달 25일 명세서로 귀속됩니다. (예: cut=12 → 6/30 이용은 7/25, 7/2 이용도 7/25)"
+  },
+
+  "user": { "name": "김학중" },
+
+  "cards": [
+    { "id": "naver", "name": "네이버 현대카드", "image": "assets/card-naver.png", "brandColor": "#00C73C" },
+    { "id": "kia",   "name": "Kia Members 신용카드 Edition2", "image": "assets/card-kia.png", "brandColor": "#05141F" },
+    { "id": "kiahi", "name": "Kia Members 신용카드 Edition2 하이패스", "image": "assets/card-kia-hipass.png", "brandColor": "#1B2A3A" }
+  ],
+
+  "transactions": [
+    { "id": "t2607-01", "date": "2026-07-02", "merchant": "스페이시스", "amount": 6500, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2607-02", "date": "2026-07-02", "merchant": "강남유나이티드병원", "amount": 5000, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2606-30a", "date": "2026-06-30", "merchant": "네이버페이", "amount": 37700, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 5.0 },
+    { "id": "t2606-30b", "date": "2026-06-30", "merchant": "KCP - 넷플릭스서비스코리아 유한", "amount": 13500, "cardId": "naver", "type": "일시불", "region": "해외", "pointRate": 1.0 },
+    { "id": "t2606-28", "date": "2026-06-28", "merchant": "쿠팡", "amount": 89400, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2606-25", "date": "2026-06-25", "merchant": "GS25 광교점", "amount": 8200, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2606-22", "date": "2026-06-22", "merchant": "스타벅스 광교아브뉴프랑점", "amount": 12800, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2606-20", "date": "2026-06-20", "merchant": "배달의민족", "amount": 24500, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2606-18", "date": "2026-06-18", "merchant": "이마트 죽전점", "amount": 143200, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2606-15", "date": "2026-06-15", "merchant": "애플코리아", "amount": 129000, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2606-14", "date": "2026-06-14", "merchant": "SK주유소 수원", "amount": 70000, "cardId": "kia", "type": "일시불", "region": "국내", "pointRate": 2.0 },
+    { "id": "t2606-13", "date": "2026-06-13", "merchant": "기아오토큐 정비", "amount": 310250, "cardId": "kia", "type": "일시불", "region": "국내", "pointRate": 2.0 },
+    { "id": "t2606-13b", "date": "2026-06-13", "merchant": "하이패스 통행료", "amount": 16940, "cardId": "kiahi", "type": "일시불", "region": "국내", "pointRate": 0.5 },
+
+    { "id": "t2605-30", "date": "2026-05-30", "merchant": "무신사", "amount": 78000, "cardId": "naver", "type": "할부", "installmentMonths": 3, "region": "국내", "pointRate": 1.0 },
+    { "id": "t2605-20", "date": "2026-05-20", "merchant": "이케아 광명점", "amount": 264000, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2605-12", "date": "2026-05-12", "merchant": "롯데월드", "amount": 62000, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2605-05", "date": "2026-05-05", "merchant": "SK주유소 용인", "amount": 65000, "cardId": "kia", "type": "일시불", "region": "국내", "pointRate": 2.0 },
+
+    { "id": "t2604-28", "date": "2026-04-28", "merchant": "쿠팡", "amount": 45300, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2604-10", "date": "2026-04-10", "merchant": "아마존닷컴", "amount": 88700, "cardId": "naver", "type": "일시불", "region": "해외", "pointRate": 1.0 },
+
+    { "id": "t2512-24", "date": "2025-12-24", "merchant": "신라호텔", "amount": 420000, "cardId": "naver", "type": "할부", "installmentMonths": 6, "region": "국내", "pointRate": 1.0 },
+    { "id": "t2512-15", "date": "2025-12-15", "merchant": "교보문고", "amount": 53400, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 },
+    { "id": "t2511-20", "date": "2025-11-20", "merchant": "다이슨 공식스토어", "amount": 599000, "cardId": "naver", "type": "할부", "installmentMonths": 12, "region": "국내", "pointRate": 1.0 },
+    { "id": "t2511-08", "date": "2025-11-08", "merchant": "SK주유소 수원", "amount": 68000, "cardId": "kia", "type": "일시불", "region": "국내", "pointRate": 2.0 },
+    { "id": "t2510-25", "date": "2025-10-25", "merchant": "제주항공", "amount": 184600, "cardId": "naver", "type": "일시불", "region": "국내", "pointRate": 1.0 }
+  ]
+}
