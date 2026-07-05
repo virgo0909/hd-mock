@@ -34,9 +34,59 @@
   ],
   "transactions": [
     {
+      "id": "t20260704-1255",
+      "date": "2026-07-04",
+      "merchant": "KCP-쿠팡",
+      "amount": 28400,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260704-1256",
+      "date": "2026-07-04",
+      "merchant": "KCP-쿠팡",
+      "amount": 24000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260703-1257",
+      "date": "2026-07-03",
+      "merchant": "KCP-쿠팡",
+      "amount": 66860,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260703-1258",
+      "date": "2026-07-03",
+      "merchant": "이마트에브리데이개포래미안포레스트",
+      "amount": 51440,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260703-1259",
+      "date": "2026-07-03",
+      "merchant": "곰돌이약국",
+      "amount": 15000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
       "id": "t20260702-1260",
       "date": "2026-07-02",
-      "merchant": "씨유CU개포스카이점",
+      "merchant": "GS래미안포레스트점",
       "amount": 5200,
       "cardId": "naver",
       "type": "일시불",
