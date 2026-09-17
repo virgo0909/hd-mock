@@ -34,37 +34,3007 @@
   ],
   "transactions": [
     {
-      "id": "t20260715-1401",
-      "date": "2026-07-15",
-      "merchant": "나이스 - 쿠팡",
-      "amount": 19500,
+      "id": "t20260916-1695",
+      "date": "2026-09-16",
+      "merchant": "씨유CU개포사랑점",
+      "amount": 4000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260916-1696",
+      "date": "2026-09-16",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 8900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260916-1697",
+      "date": "2026-09-16",
+      "merchant": "이마트에브리데이개포래미안포레스트",
+      "amount": 50080,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260916-1698",
+      "date": "2026-09-16",
+      "merchant": "모바일티머니선불형",
+      "amount": 50000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260915-1699",
+      "date": "2026-09-15",
+      "merchant": "카카오T일반택시_법인_4",
+      "amount": 15200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260915-1700",
+      "date": "2026-09-15",
+      "merchant": "카카오T일반택시_법인_4",
+      "amount": 3000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260915-1701",
+      "date": "2026-09-15",
+      "merchant": "GS25판교GB점",
+      "amount": 3900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260915-1702",
+      "date": "2026-09-15",
+      "merchant": "버거옥",
+      "amount": 11900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260915-1703",
+      "date": "2026-09-15",
+      "merchant": "리틀비콘커피",
+      "amount": 12500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260914-1704",
+      "date": "2026-09-14",
+      "merchant": "지방세 대량납부-1건",
+      "amount": 20000000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260914-1705",
+      "date": "2026-09-14",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 57060,
       "cardId": "kia",
       "type": "일시불",
       "region": "국내",
       "pointRate": 0.0
     },
     {
-      "id": "t20260715-1402",
-      "date": "2026-07-15",
-      "merchant": "서울교통공사",
-      "amount": 55000,
+      "id": "t20260914-1706",
+      "date": "2026-09-14",
+      "merchant": "카카오T일반택시_0",
+      "amount": 14400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260914-1707",
+      "date": "2026-09-14",
+      "merchant": "카카오T일반택시_법인_4",
+      "amount": 3000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260914-1708",
+      "date": "2026-09-14",
+      "merchant": "와플대학상현역캠퍼스",
+      "amount": 3000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260914-1709",
+      "date": "2026-09-14",
+      "merchant": "파리바게뜨광교마을점",
+      "amount": 17580,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260914-1710",
+      "date": "2026-09-14",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 4900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260913-1689",
+      "date": "2026-09-13",
+      "merchant": "화포식당이문뉴타운점",
+      "amount": 169000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260913-1690",
+      "date": "2026-09-13",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 23300,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260913-1691",
+      "date": "2026-09-13",
+      "merchant": "메가엠지씨커피이문아이파크자이점",
+      "amount": 11800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260913-1692",
+      "date": "2026-09-13",
+      "merchant": "한국정보통신 - 서울특별시관악구시설관리",
+      "amount": 1200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260913-1693",
+      "date": "2026-09-13",
+      "merchant": "하나로클럽양재점",
+      "amount": 41900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260912-1684",
+      "date": "2026-09-12",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 8000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260912-1685",
+      "date": "2026-09-12",
+      "merchant": "리더스내과가정의학과의원",
+      "amount": 6900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260912-1686",
+      "date": "2026-09-12",
+      "merchant": "메디컬약국",
+      "amount": 4800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260912-1687",
+      "date": "2026-09-12",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 5600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260912-1688",
+      "date": "2026-09-12",
+      "merchant": "맥도날드양재SKDT점",
+      "amount": 19900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260911-1682",
+      "date": "2026-09-11",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 23800,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260911-1683",
+      "date": "2026-09-11",
+      "merchant": "커피나인대치사거리",
+      "amount": 15600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260910-1680",
+      "date": "2026-09-10",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 22770,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260910-1681",
+      "date": "2026-09-10",
+      "merchant": "한국도로공사 0005건",
+      "amount": 32800,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260909-1678",
+      "date": "2026-09-09",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 30700,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260909-1679",
+      "date": "2026-09-09",
+      "merchant": "스페이시스",
+      "amount": 9400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260908-1677",
+      "date": "2026-09-08",
+      "merchant": "삼겹사랑양재역점",
+      "amount": 141000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260908-1694",
+      "date": "2026-09-08",
+      "merchant": "NOTION LABS, INC.,USD:52.80",
+      "amount": 72162,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260907-1675",
+      "date": "2026-09-07",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 3200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260907-1676",
+      "date": "2026-09-07",
+      "merchant": "카카오T_자",
+      "amount": 6000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260906-1670",
+      "date": "2026-09-06",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 9630,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260906-1671",
+      "date": "2026-09-06",
+      "merchant": "KCP - 아이파킹 주식회사",
+      "amount": 1300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260906-1672",
+      "date": "2026-09-06",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 16600,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260906-1673",
+      "date": "2026-09-06",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 62150,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260906-1674",
+      "date": "2026-09-06",
+      "merchant": "KCP - 아이파킹 주식회사",
+      "amount": 2100,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260905-1665",
+      "date": "2026-09-05",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 2100,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260905-1666",
+      "date": "2026-09-05",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 26000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260905-1667",
+      "date": "2026-09-05",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 2400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260905-1668",
+      "date": "2026-09-05",
+      "merchant": "맥도날드양재SKDT점",
+      "amount": 16200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260905-1669",
+      "date": "2026-09-05",
+      "merchant": "KCP - 넷플릭스서비시스코리아 유한회사",
+      "amount": 13500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1654",
+      "date": "2026-09-04",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 18000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260904-1655",
+      "date": "2026-09-04",
+      "merchant": "이여곰탕",
+      "amount": 36000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1656",
+      "date": "2026-09-04",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 9500,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260904-1657",
+      "date": "2026-09-04",
+      "merchant": "파리바게뜨양재본점",
+      "amount": 21500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1658",
+      "date": "2026-09-04",
+      "merchant": "판교365약국",
+      "amount": 6600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1659",
+      "date": "2026-09-04",
+      "merchant": "강남유나이티드병원",
+      "amount": 49000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1660",
+      "date": "2026-09-04",
+      "merchant": "이여곰탕",
+      "amount": 11000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1661",
+      "date": "2026-09-04",
+      "merchant": "씨유CU판교알파리움점",
+      "amount": 3900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1662",
+      "date": "2026-09-04",
+      "merchant": "블레스드플라워마켓양재역점",
+      "amount": 10000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1663",
+      "date": "2026-09-04",
+      "merchant": "더엘산부인과",
+      "amount": 45200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260904-1664",
+      "date": "2026-09-04",
+      "merchant": "카카오T일반택시_0",
+      "amount": 9000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260903-1650",
+      "date": "2026-09-03",
+      "merchant": "네이버페이",
+      "amount": 700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260903-1651",
+      "date": "2026-09-03",
+      "merchant": "미소약국",
+      "amount": 13700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260903-1652",
+      "date": "2026-09-03",
+      "merchant": "서울뉴젠비뇨기과",
+      "amount": 5600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260903-1653",
+      "date": "2026-09-03",
+      "merchant": "임정라인",
+      "amount": 326500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260902-1646",
+      "date": "2026-09-02",
+      "merchant": "다이소아성산업",
+      "amount": 23000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260902-1647",
+      "date": "2026-09-02",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 38110,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260902-1648",
+      "date": "2026-09-02",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 16840,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260902-1649",
+      "date": "2026-09-02",
+      "merchant": "신세계프라퍼티코엑스몰",
+      "amount": 39000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260901-1644",
+      "date": "2026-09-01",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 8980,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260901-1645",
+      "date": "2026-09-01",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 24010,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260831-1639",
+      "date": "2026-08-31",
+      "merchant": "카카오T일반택시_법인_4",
+      "amount": 3000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260831-1640",
+      "date": "2026-08-31",
+      "merchant": "카카오T일반택시_0",
+      "amount": 9500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260831-1641",
+      "date": "2026-08-31",
+      "merchant": "네이버파이낸셜(주) - 레드프린팅앤프레스",
+      "amount": 60390,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260831-1642",
+      "date": "2026-08-31",
+      "merchant": "모바일티머니선불형",
+      "amount": 50000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260831-1643",
+      "date": "2026-08-31",
+      "merchant": "08월티머니지하철 0003건",
+      "amount": 8250,
       "cardId": "naver",
       "type": "일시불",
       "region": "국내",
       "pointRate": 0.0
     },
     {
-      "id": "t20260715-1403",
-      "date": "2026-07-15",
+      "id": "t20260830-1634",
+      "date": "2026-08-30",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 12010,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260830-1635",
+      "date": "2026-08-30",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 16000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260830-1636",
+      "date": "2026-08-30",
+      "merchant": "씨앤에스에너지여주상주유소충전소",
+      "amount": 60000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260830-1637",
+      "date": "2026-08-30",
+      "merchant": "서원여주인천휴게소",
+      "amount": 13700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260830-1638",
+      "date": "2026-08-30",
+      "merchant": "부산신항제이배후도로 0002건",
+      "amount": 2400,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260829-1625",
+      "date": "2026-08-29",
+      "merchant": "와이엠이십일유통서여주창원주유소",
+      "amount": 70000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260829-1626",
+      "date": "2026-08-29",
+      "merchant": "와이엠이십일유통서여주창원휴게소",
+      "amount": 9500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260829-1627",
+      "date": "2026-08-29",
+      "merchant": "영산휴게소",
+      "amount": 3700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260829-1628",
+      "date": "2026-08-29",
+      "merchant": "와이엠이십일유통서여주창원휴게소",
+      "amount": 5800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260829-1629",
+      "date": "2026-08-29",
+      "merchant": "한국맥도날드김해장유DT점",
+      "amount": 10800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260829-1630",
+      "date": "2026-08-29",
+      "merchant": "세븐일레븐장유대청점",
+      "amount": 3700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260829-1631",
+      "date": "2026-08-29",
+      "merchant": "와이엠이십일유통서여주창원휴게소",
+      "amount": 5000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260829-1632",
+      "date": "2026-08-29",
+      "merchant": "지개남산도시고속화도로주식0001건",
+      "amount": 1300,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260829-1633",
+      "date": "2026-08-29",
+      "merchant": "경남하이웨이 0001건",
+      "amount": 1100,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260828-1623",
+      "date": "2026-08-28",
+      "merchant": "현대백화점판교점",
+      "amount": 34000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260828-1624",
+      "date": "2026-08-28",
+      "merchant": "현대백화점판교점",
+      "amount": 42400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260827-1620",
+      "date": "2026-08-27",
+      "merchant": "KCP - 엔에이치엔케이씨피(주)",
+      "amount": 127000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260827-1621",
+      "date": "2026-08-27",
+      "merchant": "민속밀면분당판교점",
+      "amount": 26000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260827-1622",
+      "date": "2026-08-27",
+      "merchant": "카카오T일반택시_법인_4",
+      "amount": 8800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260826-1616",
+      "date": "2026-08-26",
       "merchant": "씨유CU개포스카이점",
-      "amount": 8590,
+      "amount": 5400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260826-1617",
+      "date": "2026-08-26",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 37440,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260826-1618",
+      "date": "2026-08-26",
+      "merchant": "네이버파이낸셜(주) - 주식회사 놀유니버스",
+      "amount": 93000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260826-1619",
+      "date": "2026-08-26",
+      "merchant": "코원에너지서비스자동이체",
+      "amount": 10710,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260825-1610",
+      "date": "2026-08-25",
+      "merchant": "한국정보통신 - 파이브가이즈",
+      "amount": 15900,
       "cardId": "naver",
       "type": "일시불",
       "region": "국내",
       "pointRate": 1.0
     },
     {
-      "id": "t20260715-1404",
+      "id": "t20260825-1611",
+      "date": "2026-08-25",
+      "merchant": "올리브영판교카카오점",
+      "amount": 43400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260825-1612",
+      "date": "2026-08-25",
+      "merchant": "대치점기아오토큐",
+      "amount": 243500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260825-1613",
+      "date": "2026-08-25",
+      "merchant": "일도씨패밀리",
+      "amount": 40000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.7
+    },
+    {
+      "id": "t20260825-1614",
+      "date": "2026-08-25",
+      "merchant": "씨유CU판교현대점",
+      "amount": 2200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260825-1615",
+      "date": "2026-08-25",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 15900,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260824-1605",
+      "date": "2026-08-24",
+      "merchant": "마리킹강남지하상가점",
+      "amount": 10000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260824-1606",
+      "date": "2026-08-24",
+      "merchant": "GS25S강남역3호점",
+      "amount": 4900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260824-1607",
+      "date": "2026-08-24",
+      "merchant": "시티약국",
+      "amount": 10000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260824-1608",
+      "date": "2026-08-24",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 48000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260824-1609",
+      "date": "2026-08-24",
+      "merchant": "고메스시",
+      "amount": 66000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260823-1601",
+      "date": "2026-08-23",
+      "merchant": "KCP - 아이파킹 주식회사",
+      "amount": 1700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260823-1602",
+      "date": "2026-08-23",
+      "merchant": "레이지케틀서비스",
+      "amount": 57600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260823-1603",
+      "date": "2026-08-23",
+      "merchant": "네이버파이낸셜(주) - 주식회사씨네폭스",
+      "amount": 13900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260823-1604",
+      "date": "2026-08-23",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 26470,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260822-1598",
+      "date": "2026-08-22",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 22000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260822-1599",
+      "date": "2026-08-22",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 8700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260822-1600",
+      "date": "2026-08-22",
+      "merchant": "KCP - 넷플릭스서비시스코리아 유한회사",
+      "amount": 17000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260821-1592",
+      "date": "2026-08-21",
+      "merchant": "강남유나이티드병원",
+      "amount": 199000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260821-1593",
+      "date": "2026-08-21",
+      "merchant": "신세계센트럴",
+      "amount": 1900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260821-1594",
+      "date": "2026-08-21",
+      "merchant": "KCP - 아이파킹 주식회사",
+      "amount": 1300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260821-1595",
+      "date": "2026-08-21",
+      "merchant": "신세계센트럴",
+      "amount": 5500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260821-1596",
+      "date": "2026-08-21",
+      "merchant": "블레스드플라워마켓강남2호점",
+      "amount": 10000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260821-1597",
+      "date": "2026-08-21",
+      "merchant": "GS25에스양재역점",
+      "amount": 3900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260820-1590",
+      "date": "2026-08-20",
+      "merchant": "네이버페이",
+      "amount": 57900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260820-1591",
+      "date": "2026-08-20",
+      "merchant": "광명대창집가락점",
+      "amount": 113700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260819-1586",
+      "date": "2026-08-19",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 6000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260819-1587",
+      "date": "2026-08-19",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 4900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260819-1588",
+      "date": "2026-08-19",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 37500,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260819-1589",
+      "date": "2026-08-19",
+      "merchant": "삼겹사랑양재역점",
+      "amount": 166000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260818-1583",
+      "date": "2026-08-18",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 9210,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260818-1584",
+      "date": "2026-08-18",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 4900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260818-1585",
+      "date": "2026-08-18",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 7890,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260817-1581",
+      "date": "2026-08-17",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 37800,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260817-1582",
+      "date": "2026-08-17",
+      "merchant": "서울춘천고속도로 0002건",
+      "amount": 7200,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260815-1576",
+      "date": "2026-08-15",
+      "merchant": "미니말레베이커리커피바",
+      "amount": 10400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260815-1577",
+      "date": "2026-08-15",
+      "merchant": "기쁨약국",
+      "amount": 8000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260815-1578",
+      "date": "2026-08-15",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 37300,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260815-1579",
+      "date": "2026-08-15",
+      "merchant": "설빙",
+      "amount": 30000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260815-1580",
+      "date": "2026-08-15",
+      "merchant": "과천의왕고속화도로 0002건",
+      "amount": 2000,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260814-1567",
+      "date": "2026-08-14",
+      "merchant": "월계랑",
+      "amount": 6000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260814-1568",
+      "date": "2026-08-14",
+      "merchant": "투쏜플레이스",
+      "amount": 88000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260814-1569",
+      "date": "2026-08-14",
+      "merchant": "신세계강남점이시무라만세이도",
+      "amount": 13000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260814-1570",
+      "date": "2026-08-14",
+      "merchant": "강남유나이티드병원",
+      "amount": 199000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260814-1571",
+      "date": "2026-08-14",
+      "merchant": "나이스 - 아마노코리아 ( 주 )",
+      "amount": 3000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260814-1572",
+      "date": "2026-08-14",
+      "merchant": "KCP - 아이파킹 주식회사",
+      "amount": 1900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260814-1573",
+      "date": "2026-08-14",
+      "merchant": "커피에스페란토",
+      "amount": 3800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260814-1574",
+      "date": "2026-08-14",
+      "merchant": "월계랑",
+      "amount": 46000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260814-1575",
+      "date": "2026-08-14",
+      "merchant": "현대백화점판교점",
+      "amount": 43700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260813-1563",
+      "date": "2026-08-13",
+      "merchant": "세븐일레븐대치덕일점",
+      "amount": 7300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260813-1564",
+      "date": "2026-08-13",
+      "merchant": "꿉쇠",
+      "amount": 305000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260813-1565",
+      "date": "2026-08-13",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 32560,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260813-1566",
+      "date": "2026-08-13",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 16530,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260812-1556",
+      "date": "2026-08-12",
+      "merchant": "네이버페이",
+      "amount": 16100,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 5.0
+    },
+    {
+      "id": "t20260812-1557",
+      "date": "2026-08-12",
+      "merchant": "나이스 - (주)곤지암도축장직판장",
+      "amount": 72500,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260812-1558",
+      "date": "2026-08-12",
+      "merchant": "선우상사",
+      "amount": 70000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260812-1559",
+      "date": "2026-08-12",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 14500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260812-1560",
+      "date": "2026-08-12",
+      "merchant": "GS25일원으뜸점",
+      "amount": 2500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260812-1561",
+      "date": "2026-08-12",
+      "merchant": "에스지푸드양재역푸릇해",
+      "amount": 12000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260812-1562",
+      "date": "2026-08-12",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 26380,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260811-1554",
+      "date": "2026-08-11",
+      "merchant": "현대백화점무역센터점",
+      "amount": 37500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260811-1555",
+      "date": "2026-08-11",
+      "merchant": "모바일티머니선불형",
+      "amount": 50000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260810-1548",
+      "date": "2026-08-10",
+      "merchant": "파리바게뜨",
+      "amount": 4550,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260810-1549",
+      "date": "2026-08-10",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 26450,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260810-1550",
+      "date": "2026-08-10",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 9640,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260810-1551",
+      "date": "2026-08-10",
+      "merchant": "개포종로온누리약국",
+      "amount": 4000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260810-1552",
+      "date": "2026-08-10",
+      "merchant": "컴포즈커피삼성대치점",
+      "amount": 6900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260810-1553",
+      "date": "2026-08-10",
+      "merchant": "이마트에브리데이개포래미안포레스트점",
+      "amount": 43560,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260809-1544",
+      "date": "2026-08-09",
+      "merchant": "다이소아성산업",
+      "amount": 3000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260809-1545",
+      "date": "2026-08-09",
+      "merchant": "아이아이개포점",
+      "amount": 1400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260809-1546",
+      "date": "2026-08-09",
+      "merchant": "뿅의전설야탑점",
+      "amount": 39000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260809-1547",
+      "date": "2026-08-09",
+      "merchant": "비에쓰마트곤트란쉐리에개포점",
+      "amount": 10600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260808-1539",
+      "date": "2026-08-08",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 8200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260808-1540",
+      "date": "2026-08-08",
+      "merchant": "미니말레베이커리커피바",
+      "amount": 15200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260808-1541",
+      "date": "2026-08-08",
+      "merchant": "발렌티",
+      "amount": 6500,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260808-1542",
+      "date": "2026-08-08",
+      "merchant": "갤럭시아머니트리(주) - 주식회사 씨드파이",
+      "amount": 19900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260808-1543",
+      "date": "2026-08-08",
+      "merchant": "한국도로공사 0004건",
+      "amount": 5900,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260807-1535",
+      "date": "2026-08-07",
+      "merchant": "강남유나이티드병원",
+      "amount": 199000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260807-1536",
+      "date": "2026-08-07",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 19700,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260807-1537",
+      "date": "2026-08-07",
+      "merchant": "시티약국",
+      "amount": 6000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260807-1538",
+      "date": "2026-08-07",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 31600,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260806-1528",
+      "date": "2026-08-06",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 6000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260806-1529",
+      "date": "2026-08-06",
+      "merchant": "우리쌀빵",
+      "amount": 3200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260806-1530",
+      "date": "2026-08-06",
+      "merchant": "이마트에브리데이개포래미안포레스트점",
+      "amount": 7570,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260806-1531",
+      "date": "2026-08-06",
+      "merchant": "윙이비인후과의원",
+      "amount": 10200,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260806-1532",
+      "date": "2026-08-06",
+      "merchant": "카카오T일반택시_0",
+      "amount": 8500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260806-1533",
+      "date": "2026-08-06",
+      "merchant": "시티약국",
+      "amount": 10200,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260806-1534",
+      "date": "2026-08-06",
+      "merchant": "카카오T일반택시_법인_4",
+      "amount": 3000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260805-1523",
+      "date": "2026-08-05",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 12740,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260805-1524",
+      "date": "2026-08-05",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 9480,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260805-1525",
+      "date": "2026-08-05",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 18000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260805-1526",
+      "date": "2026-08-05",
+      "merchant": "네이버페이",
+      "amount": 32900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260805-1527",
+      "date": "2026-08-05",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 3500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260804-1520",
+      "date": "2026-08-04",
+      "merchant": "네이버페이",
+      "amount": 700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260804-1521",
+      "date": "2026-08-04",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 24540,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260804-1522",
+      "date": "2026-08-04",
+      "merchant": "버거옥",
+      "amount": 18100,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260803-1518",
+      "date": "2026-08-03",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 24000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260803-1519",
+      "date": "2026-08-03",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 1500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260802-1514",
+      "date": "2026-08-02",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 27900,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260802-1515",
+      "date": "2026-08-02",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 72000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260802-1516",
+      "date": "2026-08-02",
+      "merchant": "디어스윗랩",
+      "amount": 28900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260802-1517",
+      "date": "2026-08-02",
+      "merchant": "용인서울고속도로 0005건",
+      "amount": 4600,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260801-1507",
+      "date": "2026-08-01",
+      "merchant": "스파게티스토리",
+      "amount": 35000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260801-1508",
+      "date": "2026-08-01",
+      "merchant": "(주) 스마트로 - 수원시청",
+      "amount": 5000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260801-1509",
+      "date": "2026-08-01",
+      "merchant": "KCP - 쿠팡페이 주식회사",
+      "amount": 27890,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260801-1510",
+      "date": "2026-08-01",
+      "merchant": "미니말레베이커리커피바",
+      "amount": 10400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260801-1511",
+      "date": "2026-08-01",
+      "merchant": "KCP - 아이파킹 주식회사",
+      "amount": 900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260801-1512",
+      "date": "2026-08-01",
+      "merchant": "스위트에삐",
+      "amount": 7500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260801-1513",
+      "date": "2026-08-01",
+      "merchant": "경수고속도로 0001건",
+      "amount": 100,
+      "cardId": "kiahi",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260731-1499",
+      "date": "2026-07-31",
+      "merchant": "현대백화점판교점",
+      "amount": 9900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260731-1500",
+      "date": "2026-07-31",
+      "merchant": "현대백화점판교점",
+      "amount": 38700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260731-1501",
+      "date": "2026-07-31",
+      "merchant": "씨제이시스템즈(주) - 씨제이씨지브이(주)",
+      "amount": 14000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260731-1502",
+      "date": "2026-07-31",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 21010,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260731-1503",
+      "date": "2026-07-31",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 9720,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260731-1504",
+      "date": "2026-07-31",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 7500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260731-1505",
+      "date": "2026-07-31",
+      "merchant": "07월티머니버스 0003건",
+      "amount": 4500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260731-1506",
+      "date": "2026-07-31",
+      "merchant": "07월티머니지하철 0008건",
+      "amount": 18400,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260730-1490",
+      "date": "2026-07-30",
+      "merchant": "신세계강남점폼폼푸린베이커리",
+      "amount": 39000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260730-1491",
+      "date": "2026-07-30",
+      "merchant": "신세계강남점스시바(신,과)초",
+      "amount": 15000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260730-1492",
+      "date": "2026-07-30",
+      "merchant": "이마트에브리데이개포래미안포레스트점",
+      "amount": 30420,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260730-1493",
+      "date": "2026-07-30",
+      "merchant": "KSNET - 에스케이플래닛 ( 주 )",
+      "amount": 22000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260730-1494",
+      "date": "2026-07-30",
+      "merchant": "신세계강남점오니마루대표단품",
+      "amount": 5200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260730-1495",
+      "date": "2026-07-30",
+      "merchant": "카카오T일반택시_법인_4",
+      "amount": 3000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260730-1496",
+      "date": "2026-07-30",
+      "merchant": "카카오T일반택시_법인_3",
+      "amount": 11200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260730-1497",
+      "date": "2026-07-30",
+      "merchant": "KCP - 넷플릭스서비시스코리아 유한회사",
+      "amount": 13500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260730-1498",
+      "date": "2026-07-30",
+      "merchant": "일일일OCIC",
+      "amount": 22000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260729-1489",
+      "date": "2026-07-29",
+      "merchant": "지에스더프레시개포블레스티지점",
+      "amount": 6230,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260728-1485",
+      "date": "2026-07-28",
+      "merchant": "현대백화점판교점",
+      "amount": 14000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260728-1486",
+      "date": "2026-07-28",
+      "merchant": "현대백화점판교점",
+      "amount": 20000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260728-1487",
+      "date": "2026-07-28",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 66200,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260728-1488",
+      "date": "2026-07-28",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 38990,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260727-1479",
+      "date": "2026-07-27",
+      "merchant": "판교365약국",
+      "amount": 9000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260727-1480",
+      "date": "2026-07-27",
+      "merchant": "씨유CU메트로교대점",
+      "amount": 4900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260727-1481",
+      "date": "2026-07-27",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 9000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260727-1482",
+      "date": "2026-07-27",
+      "merchant": "나이스 - (주)곤지암도축장직판장",
+      "amount": 62600,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260727-1483",
+      "date": "2026-07-27",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 19500,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260727-1484",
+      "date": "2026-07-27",
+      "merchant": "코원에너지서비스자동이체",
+      "amount": 10700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260726-1475",
+      "date": "2026-07-26",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 9640,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260726-1476",
+      "date": "2026-07-26",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 14600,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260726-1477",
+      "date": "2026-07-26",
+      "merchant": "네이버페이",
+      "amount": 18600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 5.0
+    },
+    {
+      "id": "t20260726-1478",
+      "date": "2026-07-26",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 27900,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260725-1474",
+      "date": "2026-07-25",
+      "merchant": "우아한형제들",
+      "amount": 23973,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1465",
+      "date": "2026-07-24",
+      "merchant": "주식회사헥토파이낸셜 - 주식회사 비버웍스",
+      "amount": 4500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1466",
+      "date": "2026-07-24",
+      "merchant": "희가덕코리아",
+      "amount": 36500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1467",
+      "date": "2026-07-24",
+      "merchant": "네이버페이",
+      "amount": 700,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1468",
+      "date": "2026-07-24",
+      "merchant": "씨제이시스템즈(주) - 씨제이씨지브이(주)",
+      "amount": 16500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1469",
+      "date": "2026-07-24",
+      "merchant": "강남유나이티드병원",
+      "amount": 199000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1470",
+      "date": "2026-07-24",
+      "merchant": "KCP - 쿠팡",
+      "amount": 7380,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1471",
+      "date": "2026-07-24",
+      "merchant": "투쏜플레이스",
+      "amount": 88000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1472",
+      "date": "2026-07-24",
+      "merchant": "디더블유아이파크",
+      "amount": 9000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260724-1473",
+      "date": "2026-07-24",
+      "merchant": "KCP - 아이파킹 주식회사",
+      "amount": 3300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260723-1457",
+      "date": "2026-07-23",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 16500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260723-1458",
+      "date": "2026-07-23",
+      "merchant": "네이버파이낸셜(주) - 주식회사씨네폭스",
+      "amount": 13900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260723-1459",
+      "date": "2026-07-23",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 25300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260723-1460",
+      "date": "2026-07-23",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 20900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260723-1461",
+      "date": "2026-07-23",
+      "merchant": "시티약국",
+      "amount": 17000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260723-1462",
+      "date": "2026-07-23",
+      "merchant": "버거옥",
+      "amount": 14200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260723-1463",
+      "date": "2026-07-23",
+      "merchant": "선우상사",
+      "amount": 70000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260723-1464",
+      "date": "2026-07-23",
+      "merchant": "현대백화점판교점",
+      "amount": 7500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260722-1455",
+      "date": "2026-07-22",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 24200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260722-1456",
+      "date": "2026-07-22",
+      "merchant": "(주)이니시스 - 넷플릭스서비시스코리아(유",
+      "amount": 17000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260721-1445",
+      "date": "2026-07-21",
+      "merchant": "네이버페이",
+      "amount": 32800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 5.0
+    },
+    {
+      "id": "t20260721-1446",
+      "date": "2026-07-21",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 8000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260721-1447",
+      "date": "2026-07-21",
+      "merchant": "서울특별시세외수입",
+      "amount": 200,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260721-1448",
+      "date": "2026-07-21",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 25300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260721-1449",
+      "date": "2026-07-21",
+      "merchant": "KSNET - 에스케이플래닛 ( 주 )",
+      "amount": 18500,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260721-1450",
+      "date": "2026-07-21",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 32100,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260721-1451",
+      "date": "2026-07-21",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 25300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260721-1452",
+      "date": "2026-07-21",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 11000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260721-1453",
+      "date": "2026-07-21",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 23000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260721-1454",
+      "date": "2026-07-21",
+      "merchant": "GS25에스양재역점",
+      "amount": 3900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260720-1439",
+      "date": "2026-07-20",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 33000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260720-1440",
+      "date": "2026-07-20",
+      "merchant": "지에스더프레시개포블레스티지점",
+      "amount": 6950,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260720-1441",
+      "date": "2026-07-20",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 20900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260720-1442",
+      "date": "2026-07-20",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 22000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260720-1443",
+      "date": "2026-07-20",
+      "merchant": "KCP - 쿠팡",
+      "amount": 27810,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260720-1444",
+      "date": "2026-07-20",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 14300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260719-1436",
+      "date": "2026-07-19",
+      "merchant": "KCP - 쿠팡",
+      "amount": 33900,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260719-1437",
+      "date": "2026-07-19",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 13650,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260719-1438",
+      "date": "2026-07-19",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 23600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260718-1430",
+      "date": "2026-07-18",
+      "merchant": "다이소아성산업",
+      "amount": 15000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260718-1431",
+      "date": "2026-07-18",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 22000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260718-1432",
+      "date": "2026-07-18",
+      "merchant": "KCP - 쿠팡",
+      "amount": 7890,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260718-1433",
+      "date": "2026-07-18",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 20900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260718-1434",
+      "date": "2026-07-18",
+      "merchant": "트레이더스위례점",
+      "amount": 174140,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260718-1435",
+      "date": "2026-07-18",
+      "merchant": "무인아이스크림",
+      "amount": 2600,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1418",
+      "date": "2026-07-17",
+      "merchant": "워터멜론컴퍼니",
+      "amount": 18800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1419",
+      "date": "2026-07-17",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 7000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1420",
+      "date": "2026-07-17",
+      "merchant": "한국정보통신 - 성동구도시관리공단",
+      "amount": 3800,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1421",
+      "date": "2026-07-17",
+      "merchant": "이구홈성수",
+      "amount": 59900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1422",
+      "date": "2026-07-17",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 17000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1423",
+      "date": "2026-07-17",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 25000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1424",
+      "date": "2026-07-17",
+      "merchant": "퍼니랜드럭키팝성수점",
+      "amount": 5000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1425",
+      "date": "2026-07-17",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 28000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1426",
+      "date": "2026-07-17",
+      "merchant": "동산빌딩",
+      "amount": 1000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1427",
+      "date": "2026-07-17",
+      "merchant": "메리노",
+      "amount": 13000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1428",
+      "date": "2026-07-17",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 50200,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260717-1429",
+      "date": "2026-07-17",
+      "merchant": "퍼니랜드럭키팝성수점",
+      "amount": 5000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260716-1413",
+      "date": "2026-07-16",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 25300,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260716-1414",
+      "date": "2026-07-16",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 9900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260716-1415",
+      "date": "2026-07-16",
+      "merchant": "씨제이시스템즈(주) - 씨제이씨지브이(주)",
+      "amount": 10500,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260716-1416",
+      "date": "2026-07-16",
+      "merchant": "강남유나이티드병원",
+      "amount": 199000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260716-1417",
+      "date": "2026-07-16",
+      "merchant": "네이버페이",
+      "amount": 10864,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260715-1406",
+      "date": "2026-07-15",
+      "merchant": "나이스 - 쿠팡",
+      "amount": 19500,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260715-1407",
+      "date": "2026-07-15",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 32480,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260715-1408",
       "date": "2026-07-15",
       "merchant": "서울뉴젠비뇨기과",
       "amount": 4000,
@@ -74,29 +3044,69 @@
       "pointRate": 1.0
     },
     {
-      "id": "t20260714-1405",
-      "date": "2026-07-14",
-      "merchant": "한국정보통신 - 쿠팡",
-      "amount": 60930,
-      "cardId": "kia",
-      "type": "일시불",
-      "region": "국내",
-      "pointRate": 0.0
-    },
-    {
-      "id": "t20260714-1406",
-      "date": "2026-07-14",
-      "merchant": "네이버파이낸셜(주) - 네이버파이낸?",
-      "amount": 19800,
+      "id": "t20260715-1409",
+      "date": "2026-07-15",
+      "merchant": "씨유CU개포스카이점",
+      "amount": 8590,
       "cardId": "naver",
       "type": "일시불",
       "region": "국내",
       "pointRate": 1.0
     },
     {
-      "id": "t20260714-1407",
+      "id": "t20260715-1410",
+      "date": "2026-07-15",
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 20900,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260715-1411",
+      "date": "2026-07-15",
+      "merchant": "KSNET - 에스케이플래닛 ( 주 )",
+      "amount": 14000,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260715-1412",
+      "date": "2026-07-15",
+      "merchant": "서울교통공사",
+      "amount": 55000,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 0.0
+    },
+    {
+      "id": "t20260714-1401",
       "date": "2026-07-14",
-      "merchant": "한국신용카드결제(주) - (주)미래밴?",
+      "merchant": "한국정보통신 - 쿠팡",
+      "amount": 60930,
+      "cardId": "kia",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260714-1402",
+      "date": "2026-07-14",
+      "merchant": "서울뉴젠비뇨기과",
+      "amount": 30100,
+      "cardId": "naver",
+      "type": "일시불",
+      "region": "국내",
+      "pointRate": 1.0
+    },
+    {
+      "id": "t20260714-1403",
+      "date": "2026-07-14",
+      "merchant": "한국신용카드결제(주) - (주)미래밴딩",
       "amount": 1200,
       "cardId": "naver",
       "type": "일시불",
@@ -104,7 +3114,7 @@
       "pointRate": 1.0
     },
     {
-      "id": "t20260714-1408",
+      "id": "t20260714-1404",
       "date": "2026-07-14",
       "merchant": "GS25대치삼성점",
       "amount": 2300,
@@ -114,10 +3124,10 @@
       "pointRate": 1.0
     },
     {
-      "id": "t20260714-1409",
+      "id": "t20260714-1405",
       "date": "2026-07-14",
-      "merchant": "서울뉴젠비뇨기과",
-      "amount": 30100,
+      "merchant": "네이버파이낸셜(주) - 네이버파이낸셜(주)",
+      "amount": 19800,
       "cardId": "naver",
       "type": "일시불",
       "region": "국내",
