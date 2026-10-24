@@ -39,6 +39,19 @@
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 html,body{margin:0;height:100%;background:var(--bg);}
+/* iPhone 17 기준 402 × 874 CSS px. 모바일은 실제 가용 화면 높이를 따른다. */
+#app{
+  position:relative;
+  width:100%;height:100%;height:100dvh;
+  overflow:hidden;
+  isolation:isolate;
+  transform:translateZ(0); /* fixed 화면과 모달의 기준을 앱 영역으로 통일 */
+  background:var(--bg);
+}
+@media (min-width:600px){
+  body{display:grid;place-items:center;}
+  #app{width:402px;height:min(874px,100vh);height:min(874px,100dvh);}
+}
 body{
   font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"SF Pro Text","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
   color:var(--text);
@@ -103,7 +116,8 @@ img{display:block;}
   .screen{transition:none;}
 }
 
-.scroll{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;}
+.scroll{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;scrollbar-width:none;}
+.scroll::-webkit-scrollbar{display:none;}
 .pad-top{padding-top:calc(var(--sat) + 8px);}
 
 /* ---------- 스플래시 ---------- */
@@ -282,7 +296,7 @@ img{display:block;}
   visibility:hidden;pointer-events:none;
   transform:translateY(100%);
   transition:transform .5s var(--ease),visibility 0s .5s;
-  max-height:88vh;display:flex;flex-direction:column;
+  max-height:88%;display:flex;flex-direction:column;
   padding-bottom:var(--sab);
   box-shadow:none;
 }
@@ -484,16 +498,12 @@ img{display:block;}
 .mc-plus{position:absolute;right:-1px;top:50%;transform:translateY(-50%);
   font-size:18px;font-weight:400;color:#fff;line-height:0;}
 
-/* iOS 하단 safe-area(홈 인디케이터) 처리 — 하단 검정 띠 방지 */
-html,body{background:#17171a;}                 /* 틈이 생겨도 이질감 없는 솔리드 다크 */
-.home-sheet{background-color:#1a1a1d;}          /* 그라데이션 아래 솔리드 보장 */
-.home-sheet::after{                             /* 시트 아래 홈인디케이터 영역까지 시트색 연장 */
-  content:"";position:absolute;left:0;right:0;top:100%;height:120px;
-  background:#1a1a1d;pointer-events:none;
-}
+/* 홈 인디케이터 영역은 각 시트의 --sab 패딩으로 확보한다. */
+@media (min-width:600px){body{background:#242426;}}
 </style>
 </head>
 <body>
+<div id="app">
 
 <!-- ===== 스플래시 ===== -->
 <div id="splash">
@@ -772,6 +782,7 @@ html,body{background:#17171a;}                 /* 틈이 생겨도 이질감 없
   </div>
 </div>
 
+</div><!-- #app -->
 <script>
 /* =========================================================
    상태 & 유틸
@@ -1106,7 +1117,7 @@ function resetTo(id, renderFn){
 /* 토스트 */
 function toast(msg){
   let t=document.getElementById('toast');
-  if(!t){ t=document.createElement('div'); t.id='toast'; t.className='toast'; document.body.appendChild(t); }
+  if(!t){ t=document.createElement('div'); t.id='toast'; t.className='toast'; $('#app').appendChild(t); }
   t.textContent=msg; t.classList.add('show');
   clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1600);
 }
