@@ -179,11 +179,11 @@ img{display:block;}
 /* 홈 하단 명세서 시트 */
 .home-sheet{
   position:absolute;left:0;right:0;bottom:0;z-index:5;
-  background:linear-gradient(180deg,#202024,#1a1a1d);
+  background:#1a1a1d;
   border-top:1px solid var(--hair);
   border-radius:24px 24px 0 0;
   padding:12px 22px calc(16px + var(--sab));
-  box-shadow:0 -16px 44px rgba(0,0,0,.5);
+  box-shadow:none;
   transform:translateY(100%);
   transition:transform .6s var(--ease);
 }
@@ -275,15 +275,20 @@ img{display:block;}
 .backdrop.show{opacity:1;pointer-events:auto;}
 .sheet{
   position:fixed;left:0;right:0;bottom:0;z-index:41;
-  background:linear-gradient(180deg,#37373a,#303032);
+  background:#333335;
   border-top:1px solid rgba(255,255,255,.07);
   border-radius:22px 22px 0 0;
-  transform:translateY(100%);transition:transform .5s var(--ease);
+  visibility:hidden;pointer-events:none;
+  transform:translateY(100%);
+  transition:transform .5s var(--ease),visibility 0s .5s;
   max-height:88vh;display:flex;flex-direction:column;
   padding-bottom:var(--sab);
-  box-shadow:0 -18px 48px rgba(0,0,0,.55);
+  box-shadow:none;
 }
-.sheet.show{transform:translateY(0);}
+.sheet.show{visibility:visible;pointer-events:auto;transform:translateY(0);transition-delay:0s;}
+@media (prefers-reduced-motion:reduce){
+  .sheet{transition:none;}
+}
 .sheet-head{display:flex;align-items:center;justify-content:space-between;padding:20px 22px 8px;}
 .sheet-head h3{margin:0;font-size:21px;font-weight:700;letter-spacing:-0.02em;}
 .sheet-x{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.13);display:grid;place-items:center;}
@@ -825,14 +830,16 @@ function stmtKeyOf(dateStr){
   return `${sy}-${pad2(sm)}`;
 }
 function stmtDateObj(key){ const [y,m]=key.split('-').map(Number); return new Date(y, m-1, CFG.statementDay); }
-/* '예정'은 기기 시계가 아니라 데이터 기준 — 가장 최신 명세서 하나에만 붙는다 */
-function isScheduled(key){ return key === LATEST_STMT; }
+/* 원본 명세서의 확정/예정 상태를 우선 사용한다. */
+function isScheduled(key){ return DATA.statements?.[key]?.status === 'scheduled' || (!DATA.statements && key === LATEST_STMT); }
+function stmtStatus(key){ return isScheduled(key) ? '예정' : '확정'; }
 function stmtLabelShort(key){ const [,m]=key.split('-').map(Number); return `${m}월 ${CFG.statementDay}일`; }
 function stmtLabelFull(key){ const [y,m]=key.split('-').map(Number); return `${y}년 ${m}월 ${CFG.statementDay}일`; }
 
 /* 집계: 하드코딩 없음 — 전부 거래에서 계산 */
 function txOfStmt(key){ return TXS.filter(t=>t._stmt===key); }
-function sum(list){ return list.reduce((s,t)=>s+t.amount,0); }
+function chargeAmount(t){ return t.billedAmount ?? t.amount; }
+function sum(list){ return list.reduce((s,t)=>s+chargeAmount(t),0); }
 
 /* 필터 적용 */
 function applyFilters(list){
@@ -849,9 +856,11 @@ function applyFilters(list){
 function byCard(list){
   const map = {};
   list.forEach(t=>{
-    (map[t.cardId] ||= {amount:0, count:0, ilsibul:0, halbu:0}).amount += t.amount;
+    (map[t.cardId] ||= {amount:0, count:0, ilsibul:0, halbu:0, other:0}).amount += chargeAmount(t);
     map[t.cardId].count++;
-    if (t.type==='할부') map[t.cardId].halbu++; else map[t.cardId].ilsibul++;
+    if (t.type==='할부') map[t.cardId].halbu++;
+    else if (t.type==='일시불') map[t.cardId].ilsibul++;
+    else map[t.cardId].other++;
   });
   return Object.entries(map)
     .map(([id,v])=>({id, ...v}))
@@ -889,7 +898,7 @@ function cardThumb(card){
 function renderHome(){
   const key = state.stmt;
   $('#hsDate').textContent = `${stmtLabelShort(key)} 명세서`;
-  $('#hsBadge').style.display = isScheduled(key) ? '' : 'none';
+  $('#hsBadge').textContent = `(${stmtStatus(key)})`;
   countUp($('#hsAmount'), sum(txOfStmt(key)));
 }
 
@@ -897,7 +906,7 @@ function renderPayment(){
   const key = state.stmt;
   const list = txOfStmt(key);
   $('#payDate').textContent = stmtLabelShort(key);
-  $('#payChip').style.display = isScheduled(key)?'':'none';
+  $('#payChip').textContent = `(${stmtStatus(key)})`;
   countUp($('#payAmount'), sum(list));
 
   const wd = new Date(stmtDateObj(key)); wd.setDate(wd.getDate()+CFG.withdrawDelayDays);
@@ -910,7 +919,7 @@ function renderPayment(){
   if (state.paySort==='카드별'){
     box.innerHTML = byCard(list).map((c,i)=>{
       const card = CARDS[c.id];
-      const sub = c.halbu ? `일시불 ${c.ilsibul}건 · 할부 ${c.halbu}건` : `일시불 ${c.ilsibul}건`;
+      const sub = [`일시불 ${c.ilsibul}건`, c.halbu ? `할부 ${c.halbu}건` : '', c.other ? `기타 ${c.other}건` : ''].filter(Boolean).join(' · ');
       return `<div class="card-row stagger tap" style="animation-delay:${i*60}ms">
         ${cardThumb(card)}
         <div><div class="cr-name">${card?.name||c.id}</div>
@@ -919,7 +928,7 @@ function renderPayment(){
     }).join('');
   } else {
     const sorted = [...list].sort(state.paySort==='고액순'
-      ? (a,b)=>b.amount-a.amount
+      ? (a,b)=>chargeAmount(b)-chargeAmount(a)
       : (a,b)=>b.date.localeCompare(a.date));
     box.innerHTML = sorted.map((t,i)=>txRow(t,i)).join('');
   }
@@ -934,10 +943,10 @@ function highlight(text, q){
 }
 function txRow(t,i,q){
   const card = CARDS[t.cardId];
-  const typeLabel = t.type==='할부' ? `${t.installmentMonths||0}개월 할부` : '일시불';
+  const typeLabel = t.type==='할부' ? `${t.installmentMonths}개월 할부${t.installmentRound ? ` · ${t.installmentRound}회차` : ''}` : t.type;
   const amt = t.type==='할부'
-    ? `<div class="t-amt installment">${won(t.amount)}<div class="t-sub" style="text-align:right">${t.installmentMonths}개월</div></div>`
-    : `<div class="t-amt">${won(t.amount)}</div>`;
+    ? `<div class="t-amt installment">${won(chargeAmount(t))}<div class="t-sub" style="text-align:right">${t.installmentMonths}개월</div></div>`
+    : `<div class="t-amt">${won(chargeAmount(t))}</div>`;
   return `<div class="tx stagger tap" style="animation-delay:${i*45}ms">
     <div><div class="t-name">${highlight(t.merchant,q)}</div>
       <div class="t-sub">${typeLabel} · ${card?.name||t.cardId}</div>
@@ -947,12 +956,12 @@ function txRow(t,i,q){
 
 function renderStatement(){
   const key = state.stmt;
-  $('#stCap').textContent = `${stmtLabelShort(key)} 명세서`;
+  $('#stCap').textContent = `${stmtLabelShort(key)} 명세서 (${stmtStatus(key)})`;
   let list = applyFilters(txOfStmt(key));
   countUp($('#stAmount'), sum(list));
 
   list = [...list].sort(state.stSort==='고액순'
-    ? (a,b)=>b.amount-a.amount
+    ? (a,b)=>chargeAmount(b)-chargeAmount(a)
     : (a,b)=>b.date.localeCompare(a.date));
 
   const box = $('#stList');
@@ -996,7 +1005,7 @@ function renderPeriod(){
         <div class="months">${ks.map(k=>{
           const sel=k===state.stmt, sch=isScheduled(k), mn=Number(k.split('-')[1]);
           return `<div class="mrow ${sel?'sel':''} tap" data-key="${k}">
-            <span>${mn}월 ${CFG.statementDay}일${sch?' <span class="yoyeong">(예정)</span>':''}</span>
+            <span>${mn}월 ${CFG.statementDay}일 <span class="yoyeong">(${stmtStatus(k)})</span></span>
             ${sel?'<svg class="ck" viewBox="0 0 24 24"><polyline points="4 12 10 18 20 6"/></svg>':''}
           </div>`;
         }).join('')}</div>
@@ -1049,7 +1058,7 @@ function renderSearch(){
     html += `<div class="res-section">메뉴 · ${menuHits.length}개</div>` + menuHits.map(m=>menuRow(m,qq)).join('');
   }
   if(txHits.length){
-    const total=txHits.reduce((s,t)=>s+t.amount,0);
+    const total=sum(txHits);
     html += `<div class="res-section">이용 내역 · ${txHits.length}건 · 합계 ${won(total)}</div>` + txHits.map((t,i)=>txRow(t,i,qq)).join('');
   }
   if(!menuHits.length && !txHits.length){
@@ -1288,6 +1297,7 @@ function bind(){
 async function boot(){
   try{
     const res=await fetch('data.json',{cache:'no-store'});
+    if (!res.ok) throw new Error(`data.json HTTP ${res.status}`);
     DATA=await res.json();
   }catch(err){
     console.warn('data.json 로드 실패 → 내장 샘플 사용',err);
@@ -1297,8 +1307,8 @@ async function boot(){
   DATA.cards.forEach(c=>CARDS[c.id]=c);
   TXS=DATA.transactions.map(t=>({
     ...t,
-    _stmt: stmtKeyOf(t.date),
-    _point: Math.round(t.amount*(t.pointRate||0)/100)
+    _stmt: t.statementMonth || stmtKeyOf(t.date),
+    _point: t.expectedReward ?? Math.round(t.amount*(t.pointRate||0)/100)
   }));
 
   // 가장 최근 명세서 = 예정 명세서 = 기본 표시
